@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Darkz | Home</title>
+        <nav class="nav">
+            <div class="container2">
+                <div class="logo">
+                    <a href="index.html">Darkz</a>
+                </div>
+                <div id="mainListDiv" class="main_list">
+                    <ul class="navlinks">
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="https://github.com/1darkz">Github</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="mailto: daniel444almeida@outlook.com">Contact</a></li>
+                        
+                    </ul>
+                </div>
+                <span class="navTrigger">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </div>
+        </nav>
+    </head>
+    <body>
+        <section class="home">
+        </section>
+        <div style="height: 500px">
+        </div>
+        <h1>Darkz</h1>
+        <p class="container">An independent and self-motivated student with interest in learning Software Engineering.</p>
+        <img src="icons8-python-48.png" class="python"></img>
+        <img src="icons8-java-48.png" class="java"></img>
+        <img src="icons8-html-5-48.png" class="html"></img>
+        <img src="icons8-css3-48.png" class="css"></img>
+        <img src="icons8-javascript-48.png" class="js"></img>
+        <p class="credit">Developed by darkz</p>
+        
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script>
+            $(window).scroll(function() {
+                if ($(document).scrollTop() > 50) {
+                    $('.nav').addClass('affix');
+                    console.log("OK");
+                } else {
+                    $('.nav').removeClass('affix');
+                }
+            });
+        </script>
+    </body>
